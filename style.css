@@ -1,0 +1,15 @@
+body {
+    padding: 13px;
+}
+
+.result {
+    font-size: 36px;
+    font-family: sans-serif;
+    color: midnightblue;
+}
+
+.your-result-text {
+    color: tomato;
+    font-family: sans-serif;
+    font-size: 30px;
+}

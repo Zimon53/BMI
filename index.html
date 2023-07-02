@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kalkulator BMI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Oblicz swój wskaźnik BMI:</h1>
+
+
+    <label>Wzrost w cm:</label>
+    <input class="height-input" type="number" placeholder="podaj swój wzrost w cm...">
+
+    <br> <br>
+
+    <label>Waga w kg:</label>
+    <label>
+        <input class="weight-input" type="number" placeholder="podaj swoją wagę w kg...">
+    </label>
+
+    <br><br>
+
+    <button class="calculate">Oblicz</button>
+    <button class="clear">Wyczyść historię</button>
+    <br><br><br>
+
+    <div class="results">
+        <p class="your-result-text" style="display: none">Twój wynik BMI to:</p>
+        <p class="result"></p>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
